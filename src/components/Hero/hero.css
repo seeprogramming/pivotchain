@@ -1,0 +1,23 @@
+.videoWrap{
+    position: relative;
+    height: 85vh;
+    width: 100%;
+}
+
+.videoOverlay{
+    position: absolute;
+    z-index: 111;
+    height: 85vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+video {
+    object-fit: cover;
+    width: 100%;
+    height: 85vh;
+    position: absolute;
+    z-index:0;
+  }
+
+
